@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-label="Illustrated portrait of a woman">
+ <defs>
+ <radialGradient id="bg3" cx="0.5" cy="0.34" r="0.78">
+   <stop offset="0" stop-color="#6B1C63"/><stop offset="1" stop-color="#2D0635"/>
+ </radialGradient>
+ <linearGradient id="tp3" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0" stop-color="#DFA02A"/><stop offset="1" stop-color="#B9840F"/>
+ </linearGradient>
+ </defs>
+ <rect width="360" height="360" fill="url(#bg3)"/>
+ <circle cx="180" cy="150" r="104" fill="#ffffff" opacity="0.06"/>
+ <circle cx="308" cy="52" r="66" fill="#DFA02A" opacity="0.12"/>
+ <circle cx="46" cy="300" r="54" fill="#DFA02A" opacity="0.08"/>
+
+ <!-- shoulders -->
+ <path d="M180 254 C238 254 292 288 304 336 L304 360 L56 360 L56 336 C68 288 122 254 180 254 Z" fill="url(#tp3)"/>
+ <path d="M180 254 C198 254 214 258 228 266 L210 360 L150 360 L132 266 C146 258 162 254 180 254 Z" fill="#6B4128"/>
+ <path d="M180 256 C191 272 197 296 199 320 L180 334 L161 320 C163 296 169 272 180 256 Z" fill="#523019" opacity="0.45"/>
+ <path d="M132 266 C120 292 112 328 110 360 L150 360 Z" fill="#000" opacity="0.1"/>
+ <path d="M228 266 C240 292 248 328 250 360 L210 360 Z" fill="#000" opacity="0.1"/>
+
+ <!-- neck -->
+ <path d="M158 206 L202 206 L202 256 C202 268 190 274 180 274 C170 274 158 268 158 256 Z" fill="#523019"/>
+
+ <!-- ears -->
+ <ellipse cx="119" cy="176" rx="12" ry="16" fill="#523019"/>
+ <ellipse cx="241" cy="176" rx="12" ry="16" fill="#523019"/>
+
+ <!-- face -->
+ <path d="M180 74 C228 74 252 112 252 160 C252 210 225 246 180 246 C135 246 108 210 108 160 C108 112 132 74 180 74 Z" fill="#6B4128"/>
+ <path d="M180 74 C204 74 222 88 234 110 C216 96 198 90 180 90 C162 90 144 96 126 110 C138 88 156 74 180 74 Z" fill="#ffffff" opacity="0.10"/>
+
+
+ <path d="M116 130 C122 94 148 78 180 78 C212 78 238 94 244 130 C248 154 244 178 238 198 L228 198 C234 174 236 150 232 130 C224 152 204 166 180 166 C156 166 136 152 128 130 C124 150 126 174 132 198 L122 198 C116 178 112 154 116 130 Z" fill="#1A0320"/>
+ <path d="M132 130 C140 150 158 162 180 162 C202 162 220 150 228 130" stroke="#F8C238" stroke-width="4" fill="none" opacity="0.5"/>
+ <rect x="126" y="194" width="11" height="50" rx="5.5" fill="#1A0320"/>
+ <rect x="146" y="198" width="11" height="54" rx="5.5" fill="#1A0320"/>
+ <rect x="203" y="198" width="11" height="54" rx="5.5" fill="#1A0320"/>
+ <rect x="223" y="194" width="11" height="50" rx="5.5" fill="#1A0320"/>
+ <circle cx="131" cy="244" r="5" fill="#F8C238"/>
+ <circle cx="151" cy="252" r="5" fill="#F8C238"/>
+ <circle cx="208" cy="252" r="5" fill="#F8C238"/>
+ <circle cx="228" cy="244" r="5" fill="#F8C238"/>
+
+ <!-- earrings -->
+ <circle cx="117" cy="198" r="8" fill="#F8C238"/>
+ <circle cx="243" cy="198" r="8" fill="#F8C238"/>
+ <circle cx="117" cy="198" r="3" fill="#ffffff" opacity="0.6"/>
+ <circle cx="243" cy="198" r="3" fill="#ffffff" opacity="0.6"/>
+
+ <!-- brows -->
+ <path d="M145 149 C154 142 167 141 176 146" stroke="#2D0635" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+ <path d="M184 146 C193 141 206 142 215 149" stroke="#2D0635" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+
+ <!-- eyes -->
+ <ellipse cx="158" cy="169" rx="12" ry="10" fill="#ffffff" opacity="0.92"/>
+ <ellipse cx="202" cy="169" rx="12" ry="10" fill="#ffffff" opacity="0.92"/>
+ <circle cx="159" cy="169" r="6.5" fill="#2D0635"/>
+ <circle cx="203" cy="169" r="6.5" fill="#2D0635"/>
+ <circle cx="161.5" cy="165.5" r="2.6" fill="#ffffff"/>
+ <circle cx="205.5" cy="165.5" r="2.6" fill="#ffffff"/>
+
+ <!-- nose -->
+ <path d="M180 178 C177 188 176 194 181 197" stroke="#523019" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+ <!-- smile -->
+ <path d="M162 210 C172 220 188 220 198 210" stroke="#2D0635" stroke-width="5" stroke-linecap="round" fill="none"/>
+ <path d="M167 212 C175 218 185 218 193 212" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+ <!-- blush -->
+ <ellipse cx="139" cy="194" rx="14" ry="8" fill="#541650" opacity="0.22"/>
+ <ellipse cx="221" cy="194" rx="14" ry="8" fill="#541650" opacity="0.22"/>
+</svg>

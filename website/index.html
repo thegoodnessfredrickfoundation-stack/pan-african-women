@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#2D0635" />
+<meta name="description" content="Pan African Women Freelancers & Tech Talent. Discover, hire and collaborate with talented African women in technology and digital work." />
+<title>Pan African Women Freelancers & Tech Talent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="icon" href="assets/logo-96.png" type="image/png" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header" id="siteHeader">
+ <div class="nav-wrap">
+    <a class="brand" href="#top" aria-label="Pan African Women Freelancers home">
+      <img src="assets/logo-96.png" alt="Pan African Women Freelancers & Tech Talent" class="brand-logo" width="52" height="52" decoding="async" />
+      <span class="brand-text">
+        <span class="brand-line1">Pan African Women</span>
+        <span class="brand-line2">Freelancers &amp; Tech Talent</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="#categories">Categories</a>
+      <a href="#freelancers">Find Talent</a>
+      <a href="#how">How it Works</a>
+      <a href="#why">Why Us</a>
+      <a href="#countries">Countries</a>
+      <a href="#trust">Trust &amp; Safety</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-wrap">
+        <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          EN
+          <svg class="chev" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <ul class="lang-menu" id="langMenu" role="menu">
+          <li role="menuitem" data-lang="EN">English</li>
+          <li role="menuitem" data-lang="FR">Français (soon)</li>
+          <li role="menuitem" data-lang="SW">Kiswahili (soon)</li>
+        </ul>
+      </div>
+      <a class="nav-cta" href="#join">Get Started</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+ </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobile" aria-hidden="true">
+ <nav aria-label="Mobile">
+    <a href="#categories">Categories</a>
+    <a href="#freelancers">Find Talent</a>
+    <a href="#how">How it Works</a>
+    <a href="#why">Why Us</a>
+    <a href="#countries">Countries</a>
+    <a href="#trust">Trust &amp; Safety</a>
+    <a class="mobile-cta" href="#join">Get Started</a>
+ </nav>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+ <div class="hero-glow glow-a" aria-hidden="true"></div>
+ <div class="hero-glow glow-b" aria-hidden="true"></div>
+ <div class="hero-grid" aria-hidden="true"></div>
+
+ <div class="hero-inner">
+    <p class="hero-eyebrow"><span class="dot"></span> Africa's Women. The World's Talent.</p>
+
+    <h1 class="hero-title">
+      <span class="line">Design.</span>
+      <span class="line">Develop.</span>
+      <span class="line line-accent">Deliver.</span>
+    </h1>
+
+    <p class="hero-sub">
+      Discover, hire and collaborate with talented African women in technology
+      and digital work — across every country of the continent.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#freelancers">Find Talent</a>
+      <a class="btn btn-ghost" href="#join">Start Freelancing</a>
+    </div>
+
+    <form class="hero-search" id="heroSearch" role="search" aria-label="Search talent">
+      <div class="hs-field">
+        <label for="hsRole" class="sr-only">What do you need?</label>
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M20 20l-3.6-3.6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        <input id="hsRole" type="text" placeholder="Try &ldquo;UI/UX designer&rdquo;" autocomplete="off" />
+      </div>
+      <div class="hs-divider" aria-hidden="true"></div>
+      <div class="hs-field">
+        <label for="hsCountry" class="sr-only">Country</label>
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 21s7-5.6 7-11a7 7 0 10-14 0c0 5.4 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        <input id="hsCountry" type="text" placeholder="Country" autocomplete="off" />
+      </div>
+      <button class="hs-submit" type="submit" aria-label="Search">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        <span>Search</span>
+      </button>
+    </form>
+
+    <ul class="hero-stats">
+      <li><strong data-count="54">0</strong><span>Countries</span></li>
+      <li><strong data-count="12000">0</strong><span>Skills listed</span></li>
+      <li><strong data-count="13">0</strong><span>Categories</span></li>
+      <li><strong data-count="100">0</strong><span>Remote-first</span></li>
+    </ul>
+
+    <!-- hero photo collage -->
+    <div class="hero-collage" aria-label="African women working in technology">
+      <figure class="hc-item hc-lead">
+        <img src="assets/photos/workshop.jpg"
+             alt="A young African woman speaking at a technology workshop"
+             width="760" height="507" fetchpriority="high" decoding="async" />
+        <figcaption>Leading a technology workshop &middot; #TechWomenAfrica</figcaption>
+      </figure>
+       <figure class="hc-item">
+        <img src="assets/photos/session.jpg"
+             alt="African women working on laptops during a technology session"
+             width="760" height="507" loading="lazy" decoding="async" />
+        <figcaption>Skills session</figcaption>
+      </figure>
+       <figure class="hc-item">
+        <img src="assets/photos/graduates.jpg"
+             alt="African women engineering graduates celebrating together"
+             width="760" height="570" loading="lazy" decoding="async" />
+        <figcaption>Graduates, Tanzania</figcaption>
+      </figure>
+    </div>
+ </div>
+
+ <div class="hero-bottom">
+    <div class="hb-col hb-label">
+      <span class="hb-kicker">Featured</span>
+      <span class="hb-strong">Profiles</span>
+    </div>
+
+    <div class="hb-col hb-cards">
+      <div class="mini-card">
+        <img class="mini-avatar" src="assets/people/p1.svg" alt="" width="44" height="44" loading="lazy" />
+        <div class="mini-top"><span class="dot-flag">🇳🇬</span> Nigeria</div>
+        <div class="mini-name">Adaeze O.</div>
+        <div class="mini-role">Full-stack Developer</div>
+        <div class="mini-foot"><span class="star">★ 4.9</span><span>$35/hr</span></div>
+      </div>
+      <div class="mini-card">
+        <img class="mini-avatar" src="assets/people/p2.svg" alt="" width="44" height="44" loading="lazy" />
+        <div class="mini-top"><span class="dot-flag">🇰🇪</span> Kenya</div>
+        <div class="mini-name">Wanjiru M.</div>
+        <div class="mini-role">UI/UX Designer</div>
+        <div class="mini-foot"><span class="star">★ 5.0</span><span>$42/hr</span></div>
+      </div>
+      <div class="mini-card">
+        <img class="mini-avatar" src="assets/people/p3.svg" alt="" width="44" height="44" loading="lazy" />
+        <div class="mini-top"><span class="dot-flag">🇿🇦</span> South Africa</div>
+        <div class="mini-name">Naledi K.</div>
+        <div class="mini-role">Data Scientist</div>
+        <div class="mini-foot"><span class="star">★ 4.8</span><span>$50/hr</span></div>
+      </div>
+    </div>
+
+    <div class="hb-col hb-scroll">
+      <a class="scroll-btn" href="#categories" aria-label="Scroll down">
+        <svg class="ring" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"/></svg>
+        <svg class="arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </a>
+      <span class="scroll-text">Scroll Down</span>
+    </div>
+ </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="strip" aria-label="Platform highlights">
+ <div class="strip-inner">
+    <span>Women-led🌟</span><span>Pan-African🌍</span><span>Secure Escrow🔒</span><span>Verified Profiles✅</span><span>Mobile-first📱</span><span>Multiple Currencies💱</span>
+ </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section" id="categories">
+ <div class="container">
+    <header class="section-head reveal">
+      <span class="section-kicker">Popular service categories</span>
+      <h2 class="section-title">Find the skill you need, <em>from the continent that delivers.</em></h2>
+      <p class="section-lead">Thirteen core categories spanning software, design, data, marketing and business — expandable as the platform grows.</p>
+    </header>
+
+    <div class="cat-grid">
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">💻</span><h3>Web &amp; Software Development</h3><p>Front-end, back-end, full-stack &amp; QA</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">📱</span><h3>Mobile App Development</h3><p>iOS, Android &amp; cross-platform</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">🎨</span><h3>UI/UX &amp; Product Design</h3><p>Research, wireframes &amp; systems</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">✏️</span><h3>Graphic Design</h3><p>Branding, logos &amp; illustration</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">🤖</span><h3>Data &amp; AI</h3><p>Analytics, ML &amp; dashboards</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">🛡️</span><h3>Cybersecurity</h3><p>Audits, hardening &amp; compliance</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">📈</span><h3>Digital Marketing &amp; SEO</h3><p>Growth, ads &amp; content strategy</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">✍️</span><h3>Writing &amp; Translation</h3><p>Copy, technical docs &amp; localisation</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">🎬</span><h3>Video &amp; Creative Services</h3><p>Editing, motion &amp; animation</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">👩‍💼</span><h3>Virtual Assistance</h3><p>Admin, support &amp; operations</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">💼</span><h3>Business &amp; Consulting</h3><p>Strategy, finance &amp; research</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">🗂️</span><h3>Project / Product Management</h3><p>Delivery, agile &amp; roadmaps</p></a>
+      <a class="cat-card reveal" href="#freelancers"><span class="cat-ico">✨</span><h3>Other Digital Services</h3><p>Anything else digital</p></a>
+    </div>
+ </div>
+</section>
+
+<!-- ============ FEATURED FREELANCERS ============ -->
+<section class="section section-alt" id="freelancers">
+ <div class="container">
+    <header class="section-head reveal">
+      <span class="section-kicker">Featured freelancers</span>
+      <h2 class="section-title">Women building the future, <em>one project at a time.</em></h2>
+      <p class="section-lead">Verified, reviewed and ready to work — browse a snapshot of the talent on the platform.</p>
+    </header>
+
+    <div class="filter-bar reveal" id="filterBar">
+      <button class="chip is-active" data-cat="all">All</button>
+      <button class="chip" data-cat="dev">Development</button>
+      <button class="chip" data-cat="design">Design</button>
+      <button class="chip" data-cat="data">Data &amp; AI</button>
+      <button class="chip" data-cat="marketing">Marketing</button>
+      <button class="chip" data-cat="writing">Writing</button>
+    </div>
+
+    <div class="talent-grid" id="talentGrid">
+      <article class="talent-card reveal" data-cat="dev">
+        <div class="tc-head">
+          <img class="avatar" src="assets/people/p1.svg" alt="Illustrated portrait of Adaeze Okonkwo" width="64" height="64" loading="lazy" />
+          <div class="tc-id">
+            <h3>Adaeze Okonkwo <span class="badge-verified" title="Verified Profile">✓</span></h3>
+            <p>Full-stack Developer</p>
+          </div>
+          <span class="tc-price">$35<span>/hr</span></span>
+        </div>
+        <p class="tc-bio">Laravel &amp; React specialist building payment and fintech products for African startups.</p>
+        <ul class="tc-tags"><li>React</li><li>Laravel</li><li>API</li></ul>
+        <div class="tc-foot">
+          <span class="tc-loc">🇳🇬 Lagos, Nigeria</span>
+          <span class="tc-rate">★ 4.9 <i>(78)</i></span>
+        </div>
+        <div class="tc-actions"><button class="btn btn-sm btn-gold js-hire">Hire Me</button><button class="btn btn-sm btn-ghost js-msg">Message</button></div>
+      </article>
+
+      <article class="talent-card reveal" data-cat="design">
+        <div class="tc-head">
+          <img class="avatar" src="assets/people/p2.svg" alt="Illustrated portrait of Wanjiru Mwangi" width="64" height="64" loading="lazy" />
+          <div class="tc-id">
+            <h3>Wanjiru Mwangi <span class="badge-verified" title="Verified Profile">✓</span></h3>
+            <p>UI/UX &amp; Product Designer</p>
+          </div>
+          <span class="tc-price">$42<span>/hr</span></span>
+        </div>
+        <p class="tc-bio">Design systems and mobile-first experiences for fintech and health platforms across East Africa.</p>
+        <ul class="tc-tags"><li>Figma</li><li>Design Systems</li><li>Research</li></ul>
+        <div class="tc-foot">
+          <span class="tc-loc">🇰🇪 Nairobi, Kenya</span>
+          <span class="tc-rate">★ 5.0 <i>(54)</i></span>
+        </div>
+        <div class="tc-actions"><button class="btn btn-sm btn-gold js-hire">Hire Me</button><button class="btn btn-sm btn-ghost js-msg">Message</button></div>
+      </article>
+
+      <article class="talent-card reveal" data-cat="data">
+        <div class="tc-head">
+          <img class="avatar" src="assets/people/p3.svg" alt="Illustrated portrait of Naledi Khumalo" width="64" height="64" loading="lazy" />
+          <div class="tc-id">
+            <h3>Naledi Khumalo <span class="badge-verified" title="Verified Profile">✓</span></h3>
+            <p>Data Scientist &amp; ML Engineer</p>
+          </div>
+          <span class="tc-price">$50<span>/hr</span></span>
+        </div>
+        <p class="tc-bio">Predictive models and analytics dashboards for logistics, retail and public-sector clients.</p>
+        <ul class="tc-tags"><li>Python</li><li>ML</li><li>Power BI</li></ul>
+        <div class="tc-foot">
+          <span class="tc-loc">🇿🇦 Cape Town, South Africa</span>
+          <span class="tc-rate">★ 4.8 <i>(41)</i></span>
+        </div>
+        <div class="tc-actions"><button class="btn btn-sm btn-gold js-hire">Hire Me</button><button class="btn btn-sm btn-ghost js-msg">Message</button></div>
+      </article>
+
+      <article class="talent-card reveal" data-cat="marketing">
+        <div class="tc-head">
+          <img class="avatar" src="assets/people/p4.svg" alt="Illustrated portrait of Amina Bello" width="64" height="64" loading="lazy" />
+          <div class="tc-id">
+            <h3>Amina Bello <span class="badge-verified" title="Verified Profile">✓</span></h3>
+            <p>Digital Marketing &amp; SEO</p>
+          </div>
+          <span class="tc-price">$28<span>/hr</span></span>
+        </div>
+        <p class="tc-bio">Growth strategy, paid social and SEO that has scaled D2C brands across West Africa.</p>
+        <ul class="tc-tags"><li>SEO</li><li>Meta Ads</li><li>Analytics</li></ul>
+        <div class="tc-foot">
+          <span class="tc-loc">🇬🇭 Accra, Ghana</span>
+          <span class="tc-rate">★ 4.9 <i>(66)</i></span>
+        </div>
+        <div class="tc-actions"><button class="btn btn-sm btn-gold js-hire">Hire Me</button><button class="btn btn-sm btn-ghost js-msg">Message</button></div>
+      </article>
+
+      <article class="talent-card reveal" data-cat="writing">
+        <div class="tc-head">
+          <img class="avatar" src="assets/people/p5.svg" alt="Illustrated portrait of Fatima Traoré" width="64" height="64" loading="lazy" />
+          <div class="tc-id">
+            <h3>Fatima Traoré <span class="badge-verified" title="Verified Profile">✓</span></h3>
+            <p>Writer &amp; Translator</p>
+          </div>
+          <span class="tc-price">$24<span>/hr</span></span>
+        </div>
+        <p class="tc-bio">Bilingual copywriting and EN–FR localisation for NGOs, media houses and tech companies.</p>
+        <ul class="tc-tags"><li>Copywriting</li><li>EN/FR</li><li>Localisation</li></ul>
+        <div class="tc-foot">
+          <span class="tc-loc">🇨🇮 Abidjan, Côte d'Ivoire</span>
+          <span class="tc-rate">★ 4.7 <i>(33)</i></span>
+        </div>
+        <div class="tc-actions"><button class="btn btn-sm btn-gold js-hire">Hire Me</button><button class="btn btn-sm btn-ghost js-msg">Message</button></div>
+      </article>
+
+      <article class="talent-card reveal" data-cat="dev">
+        <div class="tc-head">
+          <img class="avatar" src="assets/people/p6.svg" alt="Illustrated portrait of Chiamaka Sani" width="64" height="64" loading="lazy" />
+          <div class="tc-id">
+            <h3>Chiamaka Sani <span class="badge-verified" title="Verified Profile">✓</span></h3>
+            <p>Cybersecurity Engineer</p>
+          </div>
+          <span class="tc-price">$47<span>/hr</span></span>
+        </div>
+        <p class="tc-bio">Penetration testing, secure architecture reviews and ISO-aligned compliance support.</p>
+        <ul class="tc-tags"><li>Pentest</li><li>Cloud</li><li>Compliance</li></ul>
+        <div class="tc-foot">
+          <span class="tc-loc">🇷🇼 Kigali, Rwanda</span>
+          <span class="tc-rate">★ 5.0 <i>(29)</i></span>
+        </div>
+        <div class="tc-actions"><button class="btn btn-sm btn-gold js-hire">Hire Me</button><button class="btn btn-sm btn-ghost js-msg">Message</button></div>
+      </article>
+    </div>
+ </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section" id="how">
+ <div class="container">
+    <header class="section-head reveal">
+      <span class="section-kicker">How it works</span>
+      <h2 class="section-title">From search to payment, <em>in five clear steps.</em></h2>
+    </header>
+
+    <div class="tabs reveal" role="tablist" aria-label="How it works views">
+      <button class="tab is-active" role="tab" aria-selected="true" data-tab="clients">For Clients</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="freelancers">For Freelancers</button>
+    </div>
+
+    <div class="steps" id="tab-clients" role="tabpanel">
+      <div class="step reveal"><span class="step-n">01</span><h3>Search talent</h3><p>Filter by skill, category, country, rate, rating and availability to find the right woman for the job.</p></div>
+      <div class="step reveal"><span class="step-n">02</span><h3>Post a job</h3><p>Describe the work, set a fixed or hourly budget and a deadline. Or hire directly from a profile.</p></div>
+      <div class="step reveal"><span class="step-n">03</span><h3>Review proposals</h3><p>Compare cover messages, delivery times and portfolios. Shortlist, message and interview.</p></div>
+      <div class="step reveal"><span class="step-n">04</span><h3>Fund securely</h3><p>Your payment is held in escrow until milestones are delivered and approved. No raw card data stored.</p></div>
+      <div class="step reveal"><span class="step-n">05</span><h3>Approve &amp; review</h3><p>Approve delivery to release the payout, then rate quality, communication and timeliness.</p></div>
+    </div>
+
+    <div class="steps is-hidden" id="tab-freelancers" role="tabpanel">
+      <div class="step"><span class="step-n">01</span><h3>Create your profile</h3><p>Add your title, bio, skills, languages and experience. A shareable link is yours: <code>/@username</code></p></div>
+      <div class="step"><span class="step-n">02</span><h3>Build your portfolio</h3><p>Upload project images, outcomes and the tools you used. Link GitHub, Behance or your site.</p></div>
+      <div class="step"><span class="step-n">03</span><h3>Publish services</h3><p>Create fixed-price gigs with delivery time, revisions and optional package levels.</p></div>
+      <div class="step"><span class="step-n">04</span><h3>Apply &amp; get hired</h3><p>Browse jobs and submit proposals. Track status from submitted to accepted.</p></div>
+      <div class="step"><span class="step-n">05</span><h3>Deliver &amp; get paid</h3><p>Message in-platform, deliver through the workspace and receive a protected payout.</p></div>
+    </div>
+ </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="section section-alt" id="why">
+ <div class="container">
+    <div class="why-grid">
+      <div class="why-box reveal">
+        <span class="section-kicker">Why hire through the platform</span>
+        <h2 class="section-title">Skill you can trust, <em>risk you don't carry.</em></h2>
+        <figure class="why-photo">
+          <img src="assets/photos/graduates.jpg"
+               alt="African women engineering graduates celebrating together"
+               width="760" height="570" loading="lazy" decoding="async" />
+          <figcaption>Engineering graduates, Tanzania</figcaption>
+        </figure>
+        <ul class="tick-list">
+          <li>Verified profiles reviewed by our team</li>
+          <li>Escrow-protected payments and clear milestones</li>
+          <li>In-platform messaging with full history</li>
+          <li>Transparent ratings from completed work only</li>
+          <li>Dispute support and admin moderation</li>
+          <li>Local timezones and multiple currencies</li>
+        </ul>
+      </div>
+
+      <div class="why-box reveal">
+        <span class="section-kicker">Why freelancers should join</span>
+        <h2 class="section-title">Your craft, <em>fairly paid.</em></h2>
+        <figure class="why-photo">
+          <img src="assets/photos/focused.jpg"
+               alt="An African woman working at a desktop computer"
+               width="760" height="760" loading="lazy" decoding="async" />
+          <figcaption>Building skills at a community computer lab</figcaption>
+        </figure>
+        <ul class="tick-list">
+          <li>Zero cost to set up your professional profile</li>
+          <li>Clients from Africa and around the world</li>
+          <li>Protection against non-payment and harassment</li>
+          <li>Grow your reputation with verified reviews</li>
+          <li>Showcase a real portfolio and fixed-price services</li>
+          <li>Get paid in your currency, securely</li>
+        </ul>
+      </div>
+    </div>
+ </div>
+</section>
+
+<!-- ============ COUNTRIES ============ -->
+<section class="section" id="countries">
+ <div class="container">
+    <header class="section-head reveal">
+      <span class="section-kicker">African countries represented</span>
+      <h2 class="section-title">Talent in every region <em>of the continent.</em></h2>
+      <p class="section-lead">Flags, local timezones and country-aware search come standard — from Lagos to Nairobi, Accra, Kigali, Cairo and beyond.</p>
+    </header>
+
+    <div class="country-grid">
+      <div class="country reveal"><span class="flag">🇳🇬</span><strong>Nigeria</strong><span class="tz" data-tz="Africa/Lagos">—</span></div>
+      <div class="country reveal"><span class="flag">🇰🇪</span><strong>Kenya</strong><span class="tz" data-tz="Africa/Nairobi">—</span></div>
+      <div class="country reveal"><span class="flag">🇿🇦</span><strong>South Africa</strong><span class="tz" data-tz="Africa/Johannesburg">—</span></div>
+      <div class="country reveal"><span class="flag">🇬🇭</span><strong>Ghana</strong><span class="tz" data-tz="Africa/Accra">—</span></div>
+      <div class="country reveal"><span class="flag">🇪🇬</span><strong>Egypt</strong><span class="tz" data-tz="Africa/Cairo">—</span></div>
+      <div class="country reveal"><span class="flag">🇷🇼</span><strong>Rwanda</strong><span class="tz" data-tz="Africa/Kigali">—</span></div>
+      <div class="country reveal"><span class="flag">🇸🇪</span><strong>Senegal</strong><span class="tz" data-tz="Africa/Dakar">—</span></div>
+      <div class="country reveal"><span class="flag">🇩🇿</span><strong>Algeria</strong><span class="tz" data-tz="Africa/Algiers">—</span></div>
+      <div class="country reveal"><span class="flag">🇺🇸</span><strong>Morocco</strong><span class="tz" data-tz="Africa/Casablanca">—</span></div>
+      <div class="country reveal"><span class="flag">🇹🇿</span><strong>Tanzania</strong><span class="tz" data-tz="Africa/Dar_es_Salaam">—</span></div>
+      <div class="country reveal"><span class="flag">🇺🇬</span><strong>Uganda</strong><span class="tz" data-tz="Africa/Kampala">—</span></div>
+      <div class="country reveal"><span class="flag">🇪🇹</span><strong>Ethiopia</strong><span class="tz" data-tz="Africa/Addis_Ababa">—</span></div>
+      <div class="country reveal"><span class="flag">🇨🇲</span><strong>Cameroon</strong><span class="tz" data-tz="Africa/Douala">—</span></div>
+      <div class="country reveal"><span class="flag">🇿🇲</span><strong>Zambia</strong><span class="tz" data-tz="Africa/Lusaka">—</span></div>
+      <div class="country reveal"><span class="flag">🇳🇦</span><strong>Namibia</strong><span class="tz" data-tz="Africa/Windhoek">—</span></div>
+      <div class="country reveal"><span class="flag">🇹🇳</span><strong>Tunisia</strong><span class="tz" data-tz="Africa/Tunis">—</span></div>
+    </div>
+ </div>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section class="section section-alt" id="trust">
+ <div class="container">
+    <header class="section-head reveal">
+      <span class="section-kicker">Trust &amp; safety</span>
+      <h2 class="section-title">Built to protect <em>both sides of the deal.</em></h2>
+    </header>
+    <div class="trust-grid">
+      <div class="trust-card reveal"><span class="t-ico">🔐</span><h3>Secure by design</h3><p>Hashed passwords, role-based access, validated uploads, rate limiting, secure sessions and HTTPS everywhere.</p></div>
+      <div class="trust-card reveal"><span class="t-ico">💳</span><h3>Escrow payments</h3><p>Funds are held securely until delivery is approved. No raw card details are ever stored on the platform.</p></div>
+      <div class="trust-card reveal"><span class="t-ico">⚖️</span><h3>Dispute handling</h3><p>Report a user, job or review. Our admin team moderates, suspends and bans where needed.</p></div>
+      <div class="trust-card reveal"><span class="t-ico">🛡️</span><h3>Anti-fraud controls</h3><p>Verification badges, spam controls and audit logs on every important admin action.</p></div>
+      <div class="trust-card reveal"><span class="t-ico">📜</span><h3>Clear policies</h3><p>Terms of Service, Privacy Policy and marketplace rules, aligned with African data-protection laws.</p></div>
+      <div class="trust-card reveal"><span class="t-ico">🤝</span><h3>Real reviews only</h3><p>Ratings come from completed projects, so reputations reflect genuine delivery.</p></div>
+    </div>
+ </div>
+</section>
+
+<!-- ============ CATEGORY VOLUME / STATS ============ -->
+<section class="section stats-band">
+ <div class="container">
+    <div class="band-grid">
+      <div class="band reveal"><strong data-count="4900" data-suffix="+">0</strong><span>Registered freelancers</span></div>
+      <div class="band reveal"><strong data-count="1200" data-suffix="+">0</strong><span>Clients hiring</span></div>
+      <div class="band reveal"><strong data-count="8500" data-suffix="+">0</strong><span>Projects delivered</span></div>
+      <div class="band reveal"><strong data-count="96" data-suffix="%">0</strong><span>Would recommend</span></div>
+    </div>
+ </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section">
+ <div class="container">
+    <header class="section-head reveal">
+      <span class="section-kicker">Stories from the platform</span>
+      <h2 class="section-title">Work that changed <em>both sides of the table.</em></h2>
+    </header>
+
+    <div class="carousel reveal" id="carousel">
+      <div class="car-track" id="carTrack">
+        <figure class="quote">
+          <blockquote>“We needed a design system fast. We found a brilliant designer in Nairobi, funded the milestone and shipped in three weeks.”</blockquote>
+          <figcaption><strong>Daniel M.</strong><span>Founder, logistics startup — Berlin</span></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“My profile link goes on every CV and proposal now. Two of my biggest clients found me through the platform.”</blockquote>
+          <figcaption><strong>Adaeze O.</strong><span>Full-stack Developer — Lagos</span></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“Escrow removed the fear. We pay on approval and the freelancer knows the money is real.”</blockquote>
+          <figcaption><strong>Grace W.</strong><span>Ops Lead, NGO — Accra</span></figcaption>
+        </figure>
+      </div>
+      <div class="car-dots" id="carDots" role="tablist" aria-label="Testimonials"></div>
+    </div>
+ </div>
+</section>
+
+<!-- ============ PHOTO BAND ============ -->
+<section class="photo-band" aria-label="African women working in technology">
+ <figure class="pb-item">
+    <img src="assets/photos/workshop.jpg"
+         alt="A young African woman speaking at a technology workshop"
+         width="760" height="507" loading="lazy" decoding="async" />
+    <figcaption>Leading a technology workshop &middot; #TechWomenAfrica</figcaption>
+ </figure>
+ <figure class="pb-item">
+    <img src="assets/photos/graduates.jpg"
+         alt="African women engineering graduates celebrating together"
+         width="760" height="570" loading="lazy" decoding="async" />
+    <figcaption>Engineering graduates, Tanzania</figcaption>
+ </figure>
+ <figure class="pb-item">
+    <img src="assets/photos/session.jpg"
+         alt="African women working on laptops during a technology session"
+         width="760" height="507" loading="lazy" decoding="async" />
+    <figcaption>Skills session &middot; African Summit on Women and Girls in Technology</figcaption>
+ </figure>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="join">
+ <div class="cta-glow" aria-hidden="true"></div>
+ <div class="container cta-inner reveal">
+    <h2>Africa's women. <em>The world's talent.</em></h2>
+    <p>Register today — create a professional profile, publish your services, or post your first job and start hiring in minutes.</p>
+    <div class="cta-actions">
+      <a class="btn btn-gold" href="#freelancers">I want to hire</a>
+      <a class="btn btn-ghost" href="#how">I want to freelance</a>
+    </div>
+    <form class="signup" id="signup" novalidate>
+      <label class="sr-only" for="email">Email address</label>
+      <input id="email" type="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+      <button class="btn btn-gold" type="submit">Get early access</button>
+    </form>
+    <p class="signup-note" id="signupNote" role="status" aria-live="polite"></p>
+ </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+ <div class="container footer-grid">
+    <div class="f-brand">
+      <img src="assets/logo-160.png" alt="Pan African Women Freelancers" width="64" height="64" loading="lazy" decoding="async" />
+      <p>Discover, hire and collaborate with talented African women in technology and digital work.</p>
+      <ul class="f-social">
+        <li><a href="#" aria-label="LinkedIn">in</a></li>
+        <li><a href="#" aria-label="X">X</a></li>
+        <li><a href="#" aria-label="Instagram">ig</a></li>
+      </ul>
+    </div>
+    <nav class="f-col" aria-label="Marketplace">
+      <h3>Marketplace</h3>
+      <a href="#categories">Categories</a>
+      <a href="#freelancers">Find Talent</a>
+      <a href="#how">How it Works</a>
+      <a href="#why">Why Us</a>
+    </nav>
+    <nav class="f-col" aria-label="Company">
+      <h3>Company</h3>
+      <a href="#trust">Trust &amp; Safety</a>
+      <a href="#countries">Countries</a>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+    </nav>
+    <nav class="f-col" aria-label="Legal">
+      <h3>Legal</h3>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Marketplace Rules</a>
+      <a href="#">Report a Dispute</a>
+    </nav>
+ </div>
+ <div class="container footer-base">
+    <p>© <span id="year"></span> Pan African Women Freelancers &amp; Tech Talent. All rights reserved.</p>
+    <p class="f-made">Built mobile-first · Low-bandwidth friendly · Multiple currencies</p>
+ </div>
+ <div class="container footer-credits">
+    <p>
+      <strong>Photography credits:</strong> header and section photographs are used under
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer nofollow" target="_blank">CC BY-SA 4.0</a>
+      from
+      <a href="https://commons.wikimedia.org/" rel="noopener noreferrer nofollow" target="_blank">Wikimedia Commons</a>.
+      Illustrations of freelancers are original artwork created for this site.
+      Photos are illustrative of African women in technology and do not depict platform users.
+    </p>
+ </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+ <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

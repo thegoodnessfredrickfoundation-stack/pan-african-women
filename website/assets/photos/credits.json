@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "workshop",
+    "file": "workshop.jpg",
+    "alt": "A young African woman speaking at a technology workshop",
+    "caption": "Leading a technology workshop, #TechWomenAfrica",
+    "used": "Hero collage (lead image), Photo band",
+    "sourceTitle": "File:Zita Zage leading the Wikipedia workshop at the 2018 African Summit On Women and Girls In Technology.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zita_Zage_leading_the_Wikipedia_workshop_at_the_2018_African_Summit_On_Women_and_Girls_In_Technology.jpg"
+  },
+  {
+    "slug": "session",
+    "file": "session.jpg",
+    "alt": "African women working on laptops during a technology session",
+    "caption": "Skills session, African Summit on Women and Girls in Technology",
+    "used": "Hero collage, Photo band",
+    "sourceTitle": "File:Participants at the Wikipedia workshop during the 2018 African Summit On Women and Girls In Technology.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Participants_at_the_Wikipedia_workshop_during_the_2018_African_Summit_On_Women_and_Girls_In_Technology.jpg"
+  },
+  {
+    "slug": "graduates",
+    "file": "graduates.jpg",
+    "alt": "African women engineering graduates celebrating together",
+    "caption": "Engineering graduates, Tanzania",
+    "used": "Why section, Hero collage, Photo band",
+    "sourceTitle": "File:Women engineering graduate students at St.Joseph College of Engineering and Technology in Tanzania.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Women_engineering_graduate_students_at_St.Joseph_College_of_Engineering_and_Technology_in_Tanzania.jpg"
+  },
+  {
+    "slug": "focused",
+    "file": "focused.jpg",
+    "alt": "An African woman working at a desktop computer",
+    "caption": "Building skills at a community computer lab",
+    "used": "Why section (freelancers)",
+    "sourceTitle": "File:A Lady on a computer.jpg",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Lady_on_a_computer.jpg"
+  },
+  {
+    "slug": "people/p1-p6",
+    "file": "assets/people/p1.svg ... p6.svg",
+    "alt": "Illustrated portraits of African women",
+    "caption": "Freelancer card portraits",
+    "used": "Featured freelancers, Hero mini-cards",
+    "sourceTitle": "Original artwork generated for this project",
+    "credit": "Pan African Women Freelancers & Tech Talent",
+    "license": "Owned by the project",
+    "licenseUrl": "",
+    "sourceUrl": "",
+    "note": "Drawn in the brand palette. These are illustrative and do not depict real people."
+  }
+]

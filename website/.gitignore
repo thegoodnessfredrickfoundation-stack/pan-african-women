@@ -1,0 +1,24 @@
+# OS / editor cruft
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs / temp
+*.log
+*.tmp
+out.log
+err.log
+_chk.ps1
+_assets.ps1
+_validate.ps1
+_gh_check.ps1
+
+# Local preview artefacts
+server-out/
